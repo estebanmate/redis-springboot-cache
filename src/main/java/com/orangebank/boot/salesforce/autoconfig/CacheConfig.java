@@ -1,4 +1,4 @@
-package com.programmerfriend.ultimateredis.config;
+package com.orangebank.boot.salesforce.autoconfig;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
