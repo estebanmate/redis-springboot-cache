@@ -35,6 +35,7 @@ public class CacheConfig extends CachingConfigurerSupport {
         RedisStandaloneConfiguration redisStandaloneConfiguration = new RedisStandaloneConfiguration();
         redisStandaloneConfiguration.setHostName(properties.getRedisHost());
         redisStandaloneConfiguration.setPort(properties.getRedisPort());
+        redisStandaloneConfiguration.setDatabase(properties.getDatabase());
         return new LettuceConnectionFactory(redisStandaloneConfiguration);
     }
 

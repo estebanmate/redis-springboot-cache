@@ -8,10 +8,10 @@
         <version>2.1.4.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.orangebank.boot</groupId>
-    <artifactId>salesforce</artifactId>
+    <groupId>com.orangebank.boot.salesforce</groupId>
+    <artifactId>orangebank-boot-salesforce-auth</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>orangebank-boot-Salesforce-Auth</name>
+    <name>orangebank-boot-salesforce-auth</name>
     <description>Library for Salesforce API calls Securization</description>
 
     <properties>

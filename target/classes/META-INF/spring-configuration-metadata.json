@@ -13,22 +13,24 @@
       "sourceType": "com.orangebank.boot.salesforce.autoconfig.CacheConfigurationProperties"
     },
     {
+      "name": "cache.database",
+      "type": "java.lang.Integer",
+      "sourceType": "com.orangebank.boot.salesforce.autoconfig.CacheConfigurationProperties"
+    },
+    {
       "name": "cache.redis-host",
       "type": "java.lang.String",
-      "sourceType": "com.orangebank.boot.salesforce.autoconfig.CacheConfigurationProperties",
-      "defaultValue": "localhost"
+      "sourceType": "com.orangebank.boot.salesforce.autoconfig.CacheConfigurationProperties"
     },
     {
       "name": "cache.redis-port",
       "type": "java.lang.Integer",
-      "sourceType": "com.orangebank.boot.salesforce.autoconfig.CacheConfigurationProperties",
-      "defaultValue": 6379
+      "sourceType": "com.orangebank.boot.salesforce.autoconfig.CacheConfigurationProperties"
     },
     {
       "name": "cache.timeout-seconds",
       "type": "java.lang.Long",
-      "sourceType": "com.orangebank.boot.salesforce.autoconfig.CacheConfigurationProperties",
-      "defaultValue": 10
+      "sourceType": "com.orangebank.boot.salesforce.autoconfig.CacheConfigurationProperties"
     }
   ],
   "hints": []
