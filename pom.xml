@@ -8,14 +8,14 @@
         <version>2.1.4.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.programmerfriend</groupId>
-    <artifactId>ultimate-redis</artifactId>
+    <groupId>com.orangebank.boot</groupId>
+    <artifactId>salesforce</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>ultimate-redis</name>
-    <description>Demo project for Spring Boot</description>
+    <name>orangebank-boot-Salesforce-Auth</name>
+    <description>Library for Salesforce API calls Securization</description>
 
     <properties>
-        <java.version>1.8</java.version>
+        <java.version>11</java.version>
     </properties>
 
     <dependencies>

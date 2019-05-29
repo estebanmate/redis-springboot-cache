@@ -1,10 +1,10 @@
 Manifest-Version: 1.0
 Built-By: esteban
 Build-Jdk: 11.0.3
-Implementation-Title: ultimate-redis
+Implementation-Title: orangebank-boot-Salesforce-Auth
 Implementation-Version: 0.0.1-SNAPSHOT
-Implementation-Vendor-Id: com.programmerfriend
+Implementation-Vendor-Id: com.orangebank.boot
 Implementation-URL: https://projects.spring.io/spring-boot/#/spring-boot
- -starter-parent/ultimate-redis
+ -starter-parent/salesforce
 Created-By: Maven Integration for Eclipse
 

@@ -2,33 +2,33 @@
   "groups": [
     {
       "name": "cache",
-      "type": "com.programmerfriend.ultimateredis.config.CacheConfigurationProperties",
-      "sourceType": "com.programmerfriend.ultimateredis.config.CacheConfigurationProperties"
+      "type": "com.orangebank.boot.salesforce.autoconfig.CacheConfigurationProperties",
+      "sourceType": "com.orangebank.boot.salesforce.autoconfig.CacheConfigurationProperties"
     }
   ],
   "properties": [
     {
       "name": "cache.cache-expirations",
       "type": "java.util.Map<java.lang.String,java.lang.Long>",
-      "sourceType": "com.programmerfriend.ultimateredis.config.CacheConfigurationProperties"
+      "sourceType": "com.orangebank.boot.salesforce.autoconfig.CacheConfigurationProperties"
     },
     {
       "name": "cache.redis-host",
       "type": "java.lang.String",
-      "sourceType": "com.programmerfriend.ultimateredis.config.CacheConfigurationProperties",
+      "sourceType": "com.orangebank.boot.salesforce.autoconfig.CacheConfigurationProperties",
       "defaultValue": "localhost"
     },
     {
       "name": "cache.redis-port",
       "type": "java.lang.Integer",
-      "sourceType": "com.programmerfriend.ultimateredis.config.CacheConfigurationProperties",
+      "sourceType": "com.orangebank.boot.salesforce.autoconfig.CacheConfigurationProperties",
       "defaultValue": 6379
     },
     {
       "name": "cache.timeout-seconds",
       "type": "java.lang.Long",
-      "sourceType": "com.programmerfriend.ultimateredis.config.CacheConfigurationProperties",
-      "defaultValue": 60
+      "sourceType": "com.orangebank.boot.salesforce.autoconfig.CacheConfigurationProperties",
+      "defaultValue": 10
     }
   ],
   "hints": []
