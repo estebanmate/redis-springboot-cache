@@ -1,36 +1,46 @@
 {
   "groups": [
     {
-      "name": "cache",
-      "type": "com.orangebank.boot.salesforce.autoconfig.CacheConfigurationProperties",
-      "sourceType": "com.orangebank.boot.salesforce.autoconfig.CacheConfigurationProperties"
+      "name": "redis",
+      "type": "com.orangebank.boot.salesforce.autoconfig.RedisCacheConfigurationProperties",
+      "sourceType": "com.orangebank.boot.salesforce.autoconfig.RedisCacheConfigurationProperties"
     }
   ],
   "properties": [
     {
-      "name": "cache.cache-expirations",
+      "name": "redis.cache-expirations",
       "type": "java.util.Map<java.lang.String,java.lang.Long>",
-      "sourceType": "com.orangebank.boot.salesforce.autoconfig.CacheConfigurationProperties"
+      "sourceType": "com.orangebank.boot.salesforce.autoconfig.RedisCacheConfigurationProperties"
     },
     {
-      "name": "cache.database",
-      "type": "java.lang.Integer",
-      "sourceType": "com.orangebank.boot.salesforce.autoconfig.CacheConfigurationProperties"
-    },
-    {
-      "name": "cache.redis-host",
+      "name": "redis.cache-name",
       "type": "java.lang.String",
-      "sourceType": "com.orangebank.boot.salesforce.autoconfig.CacheConfigurationProperties"
+      "sourceType": "com.orangebank.boot.salesforce.autoconfig.RedisCacheConfigurationProperties"
     },
     {
-      "name": "cache.redis-port",
-      "type": "java.lang.Integer",
-      "sourceType": "com.orangebank.boot.salesforce.autoconfig.CacheConfigurationProperties"
+      "name": "redis.database",
+      "type": "java.lang.String",
+      "sourceType": "com.orangebank.boot.salesforce.autoconfig.RedisCacheConfigurationProperties"
     },
     {
-      "name": "cache.timeout-seconds",
+      "name": "redis.host",
+      "type": "java.lang.String",
+      "sourceType": "com.orangebank.boot.salesforce.autoconfig.RedisCacheConfigurationProperties"
+    },
+    {
+      "name": "redis.key-name",
+      "type": "java.lang.String",
+      "sourceType": "com.orangebank.boot.salesforce.autoconfig.RedisCacheConfigurationProperties"
+    },
+    {
+      "name": "redis.port",
+      "type": "java.lang.String",
+      "sourceType": "com.orangebank.boot.salesforce.autoconfig.RedisCacheConfigurationProperties"
+    },
+    {
+      "name": "redis.timeout",
       "type": "java.lang.Long",
-      "sourceType": "com.orangebank.boot.salesforce.autoconfig.CacheConfigurationProperties"
+      "sourceType": "com.orangebank.boot.salesforce.autoconfig.RedisCacheConfigurationProperties"
     }
   ],
   "hints": []

@@ -1,6 +1,0 @@
-com/orangebank/boot/salesforce/CacheService.class
-META-INF/spring-configuration-metadata.json
-com/orangebank/boot/salesforce/ControlledCacheService.class
-com/orangebank/boot/salesforce/SalesforceAuthApplication.class
-com/orangebank/boot/salesforce/autoconfig/CacheConfig.class
-com/orangebank/boot/salesforce/autoconfig/CacheConfigurationProperties.class
